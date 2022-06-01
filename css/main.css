@@ -28,9 +28,14 @@ body {
   background: #272727;
   height: 100px;
   width: 330px;
+  overflow-x: hidden;
   border-bottom: 1px solid #3ae73a;
   color: #fff;
   font-size: 2rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .calculator-wrapper .buttons {
@@ -41,6 +46,8 @@ body {
   background: #272727;
   gap: 10px;
   padding: 5px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .calculator-wrapper .buttons .button {
